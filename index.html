@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prestations Viticoles Ribeiro</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #405d27;
+      color: white;
+      padding: 1.5em;
+      text-align: center;
+    }
+    nav {
+      background-color: #2e3d19;
+      padding: 1em;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1em;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('champ-vignes.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 3px #000;
+      font-size: 2em;
+    }
+    .content {
+      padding: 2em;
+      max-width: 1000px;
+      margin: auto;
+      background-color: white;
+    }
+    .prestation-section {
+      background-color: #eef2e6;
+      padding: 2em;
+      margin-top: 2em;
+    }
+    .prestation {
+      margin-bottom: 1.5em;
+    }
+    .contact-section {
+      padding: 2em;
+      max-width: 1000px;
+      margin: auto;
+      background-color: white;
+    }
+    .contact-section h2 {
+      margin-top: 0;
+    }
+    .contact-form label {
+      display: block;
+      margin-top: 1em;
+      font-weight: bold;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 0.5em;
+      margin-top: 0.5em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .contact-form button {
+      margin-top: 1em;
+      background-color: #405d27;
+      color: white;
+      border: none;
+      padding: 0.75em 1.5em;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #2e3d19;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 2em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SAS Prestations Viticoles Ribeiro</h1>
+    <p>Entretenir la terre, préserver l’avenir</p>
+  </header>
+
+  <nav>
+    <a href="#">Accueil</a>
+    <a href="#">À propos</a>
+    <a href="#prestations">Prestations</a>
+    <a href="#">Galerie</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <div>Des Corbières à l’action écologique</div>
+  </div>
+
+  <div class="content">
+    <h2>Bienvenue sur notre site</h2>
+    <p>
+      La SAS Prestations Viticoles Ribeiro est spécialisée dans l’entretien des espaces agricoles et naturels, la compensation écologique, le débroussaillage, la pose de clôtures, et les interventions spécifiques au service des énergies renouvelables.
+    </p>
+    <p>
+      Basés à Camplong-d’Aude, nous intervenons dans tout le département et au-delà, avec professionnalisme, discrétion, et engagement pour le vivant.
+    </p>
+  </div>
+
+  <div class="prestation-section" id="prestations">
+    <h2>Nos Prestations</h2>
+    <div class="prestation">
+      <h3>🌿 Débroussaillage et fauchage</h3>
+      <p>Travail mécanique ou manuel sur parcelles agricoles, viticoles ou forestières. Intervention rapide et soignée.</p>
+    </div>
+    <div class="prestation">
+      <h3>🛠️ Clôtures agricoles et équestres</h3>
+      <p>Installation de clôtures électrifiées, semi-permanentes ou traditionnelles. Conception sur mesure.</p>
+    </div>
+    <div class="prestation">
+      <h3>🌍 Compensation écologique</h3>
+      <p>Mise en œuvre de mesures compensatoires : haies, prairies, zones humides. Collaboration avec écologues et maîtres d’ouvrage.</p>
+    </div>
+    <div class="prestation">
+      <h3>🔆 Interventions pour projets solaires & éoliens</h3>
+      <p>Aménagement, entretien, gyrobroyage, suivi des parcelles en lien avec les énergies renouvelables.</p>
+    </div>
+  </div>
+
+  <div class="contact-section" id="contact">
+    <h2>Contactez-nous</h2>
+    <form class="contact-form">
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>📍 16 lotissement des Oliviers, 11200 Camplong-d’Aude — 📞 06 21 70 30 15 — 📧 pvr11200@gmail.com</p>
+  </footer>
+</body>
+</html>
